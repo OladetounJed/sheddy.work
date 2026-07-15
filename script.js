@@ -172,6 +172,7 @@
     await typeText(elements.cmdEcho, 'echo "DevOps playground"', speed); revealLine(lines[3]);
     revealLine(lines[4]);
     await typeText(elements.cmdLs, 'ls', speed); revealLine(lines[5]);
+    revealLine(lines[6]);
   }
 
   function renderProjects(projects) {
